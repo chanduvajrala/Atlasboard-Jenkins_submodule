@@ -1,0 +1,22 @@
+
+.name-container {
+	width: 100%;
+	display: table;
+}
+
+.text {
+	display: table-cell;
+}
+
+.name {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.dueDate {
+    padding-left: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #E08283;
+}
+

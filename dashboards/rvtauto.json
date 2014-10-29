@@ -1,0 +1,74 @@
+{
+  "layout": {
+      "title": false,
+      "customJS" : ["jquery.peity.js"],
+      "widgets" : [
+          {"row" : 1, "col" : 1, "width" : 2, "height" : 1, "widget" : "datetime",      "job" : "datetime", "config": "datetime"},
+	  {"row" : 1, "col" : 3, "width" : 2, "height" : 1, "widget" : "project-header",      "job" : "project-header", "config": "project-header"},
+	  {"row" : 1, "col" : 5, "width" : 2, "height" : 1, "widget" : "milestone-countdown", "job" : "milestone-countdown",     "config": "milestone-countdown"},
+	  {"row" : 2, "col" : 1, "width" : 1, "height" : 1, "widget" : "sanityz1",            "job" : "sanityz1",    "config": "sanityz1"},
+	  {"row" : 2, "col" : 1, "width" : 1, "height" : 1, "widget" : "sanityz1",            "job" : "sanityz1",    "config": "sanityz2"},
+	  {"row" : 2, "col" : 1, "width" : 1, "height" : 1, "widget" : "sanityz1",            "job" : "sanityz1",    "config": "sanityz1"},
+	  {"row" : 2, "col" : 1, "width" : 1, "height" : 1, "widget" : "sanityz1",            "job" : "sanityz1",    "config": "sanityz2"},
+	  {"row" : 2, "col" : 1, "width" : 1, "height" : 1, "widget" : "sanityz1",            "job" : "sanityz1",    "config": "sanityz1"},
+	  {"row" : 2, "col" : 1, "width" : 1, "height" : 1, "widget" : "sanityz1",            "job" : "sanityz1",    "config": "sanityz2"},
+		
+          {"row" : 2, "col" : 1, "width" : 3, "height" : 2, "widget" : "jenkins-builds",      "job" : "jenkins-builds",     "config": "jenkins-builds"}, 
+          {"row" : 2, "col" : 1, "width" : 3, "height" : 2, "widget" : "jenkins-builds",      "job" : "jenkins-builds",     "config": "jenkins-buildsi18n"}
+          
+          
+     ]
+  },
+
+  "config" : {
+
+    
+    "milestone-countdown": {
+        "interval": 60000,
+        "name": "Release 2.10",
+        "dueDate": "2014-10-31",
+        "lang": "en"
+    },
+
+    "jenkins-builds": {
+        "serverUrl": "http://10.5.7.109:8080/",
+        "interval": 60000,
+        "job": "2-On-Demand-Neo-Rivet-Runner",
+        "lang": "en"
+    },
+
+    "jenkins-buildsi18n": {
+        "serverUrl": "http://10.5.7.109:8080/",
+        "interval": 60,
+        "job": "Rivet-i18n-UI-Runner",
+        "lang": "en"
+    },
+
+    "project-header": {
+        "interval": 100000000,
+        "widgetTitle": "Release Certification Status",
+	"widgetReleasenumber": "2.10",
+        "logo": null
+    },
+
+    "datetime": {
+        "interval": 1000,
+        "lang": "en"
+    },
+
+    "sanityz1": {
+        "serverUrl": "http://10.5.7.109:8080/",
+        "interval": 60000,
+        "job": "2-On-Demand-Neo-Rivet-Runner",
+        "lang": "en"
+    },
+
+    "sanityz2": {
+        "serverUrl": "http://10.5.7.109:8080/",
+        "interval": 60000,
+        "job": "Rivet-i18n-UI-Runner",
+        "lang": "en"
+    }
+     
+  }
+}

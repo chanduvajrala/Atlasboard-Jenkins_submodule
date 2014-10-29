@@ -1,0 +1,35 @@
+.content {
+	width: 100%;
+	float: center;
+}
+
+.build {
+	width: 100%;
+	font-size: 25px;
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	font-weight: normal;
+}
+
+.build-unstable {
+	background-color: #F39C12;
+}
+
+.build-aborted {
+    background-color: #F39C12;
+}
+
+.build-failure {
+	background-color: #F22613;
+}
+
+.build-success {
+	background-color: #00B16A;
+}
+
+.build-time {
+	font-weight: normal;
+	font-size: 10px;
+	float: right;
+}

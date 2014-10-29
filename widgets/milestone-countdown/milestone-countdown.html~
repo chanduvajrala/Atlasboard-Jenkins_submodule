@@ -1,0 +1,11 @@
+
+<div class="content">
+
+	<div class="name-container">
+		<span class="text">
+			<h2>Next Release</h2>
+			<span class="name"></span>
+			<span class="dueDate"></span>
+		</span>
+	</div>
+</div>

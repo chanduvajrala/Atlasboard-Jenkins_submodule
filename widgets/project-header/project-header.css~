@@ -1,0 +1,20 @@
+.content {
+	font-size: 40px;
+	color: inherit;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.title {
+	color: #34495E;
+	float: center;
+}
+
+.releasenumber {
+	color: #fff;
+	float: center;
+	font-size: 75px;
+	padding-bottom:20px;
+}
